@@ -20,8 +20,8 @@
 
     }
     body{
-        background-color: rgb(58, 215, 251);
-        margin-left: 2%;
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);        margin-left: 2%;
         width: 95%;
         font-size: large;
         font-weight: bolder;
@@ -31,13 +31,16 @@
     h1{
         text-align: center;
         font-weight: bolder;
+        width: auto;
         border: solid red 2px;
         border-radius: 25px;
         display: flex;
         align-items: center;
         justify-content: center;
         font-family: 'Chivo', sans-serif;
-font-family: 'Playpen Sans', cursive;
+        font-family: 'Playpen Sans', cursive;
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 35%, rgba(60,134,61,1) 68%, rgba(0,212,255,1) 100%);
     }
     h3{
         text-align: start;
@@ -45,9 +48,9 @@ font-family: 'Playpen Sans', cursive;
         color: rgb(226, 43, 162);
     }
     .background{
-        width: auto;
-        height: auto;
-        filter: drop-shadow(rgb(255, 255, 255) 10px 10px  10px);
+        width: 50px;
+        height: 50px;
+        filter: drop-shadow(rgb(225, 0, 0) 1px 1px  1px);
     }
     address{
         height: 8%;
@@ -64,13 +67,35 @@ font-family: 'Playpen Sans', cursive;
     .frame{
         height: 100vh;
     }
+    .nav{
+        width: 100%;
+        height: 10%;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .heading{
+        width: 50%;
+
+    }
    </style>
 </head>
 <body>
 
+<div class="nav">
+    <div class="logo">
+        <a href="background.png" download><img class="background" src="background.png" alt="this is the background img for the website" width="200px" height="150px"></a>
+    </div>
+    <div class="heading">
+        <h1>TOPICS AND EXAMPLES</h1>
+    </div>
+    <div>
 
+    </div>
+</div>
 
-<h1>TOPICS AND EXAMPLES</h1>
 <H3><u>HTML Structures, Elements, Attributes, Headings & Paragraph	</u>	</H3>
 <p>In this topic i have learned about the structure of the html pages like header and body. <br>
     About the html document types,</p>
@@ -82,7 +107,6 @@ font-family: 'Playpen Sans', cursive;
         <li><b>Script tag </b>is used to write js or function in the same html page,</li>
         <li><b>Style tag </b>is used to write a css code in the same html page and it should be in the head</li>
         <li><b>Image tag </b>is used to present image in the website and it can be only used in HTML-5.O🔻</li>
-        <a href="background.png" download><img class="background" src="background.png" alt="this is the background img for the website" width="200px" height="150px"></a>
         <li><b>Hyperlink tag</b> is used to redirect to another webpage or to another resourse → <br> <a href="https://www.geeksforgeeks.org/html-course-structure-of-an-html-document/" target="_blank">Learned here!</a><br>
         <a href="mailto:jeevanantham.m@aaludra.com">Mail Me!</a></li>
     </ul>     
