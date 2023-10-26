@@ -11,14 +11,17 @@
     <meta name="author" content="jeevanantham">
     <meta name="viewport" content="width=device-width">     <!-- this code make the page responsive that can adapte to mobile device-->
    <meta http-equiv="refresh" content="300">                <!-- it refresh the page after the 300 seconds automatically -->
+
    <style>
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,300&display=swap'); 
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,300&family=Playpen+Sans:wght@800&display=swap');
-::selection{
+        @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,300&display=swap'); 
+        @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@1,300&family=Playpen+Sans:wght@800&display=swap');
+
+    ::selection{
         color: rgb(18, 10, 237);
         background-color:  rgb(238, 7, 223) ;
 
     }
+
     body{
         background: rgb(238,174,202);
         background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);        margin-left: 2%;
@@ -26,8 +29,8 @@
         font-size: large;
         font-weight: bolder;
         font-family: 'Chivo', sans-serif;
-;
     }
+
     h1{
         text-align: center;
         font-weight: bolder;
@@ -40,18 +43,21 @@
         font-family: 'Chivo', sans-serif;
         font-family: 'Playpen Sans', cursive;
         background: rgb(2,0,36);
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 35%, rgba(60,134,61,1) 68%, rgba(0,212,255,1) 100%);
+        background: linear-gradient(90deg, rgb(50, 46, 124) 0%, rgba(121,9,9,1) 35%, rgba(60,134,61,1) 68%, rgba(0,212,255,1) 100%);
     }
+
     h3{
         text-align: start;
         font-weight: 700;
         color: rgb(226, 43, 162);
     }
+
     .background{
         width: 50px;
         height: 50px;
         filter: drop-shadow(rgb(225, 0, 0) 1px 1px  1px);
     }
+
     address{
         height: 8%;
         width: 100%;
@@ -60,13 +66,16 @@
         justify-content: start;
         align-items: end;
     }
+
     iframe{
         display: flex;
         align-items: center;
     }
+    
     .frame{
         height: 100vh;
     }
+
     .nav{
         width: 100%;
         height: 10%;
@@ -76,11 +85,36 @@
         justify-content: space-between;
         align-items: center;
     }
+
     .heading{
-        width: 50%;
+        width: 40%;
+        display:inline;
+        justify-content: center;
+        align-items: center;
 
     }
+
+    .menu ul{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .menu ul li{
+        display: inline;
+        margin-right: 20px;
+    }
+
+    .menu ul li a{
+        text-decoration: none;
+        color: aquamarine;
+    }
+    
+    .menu ul li a:hover{
+        color: rgb(255, 0, 0);
+        font-size: large;
+    }
    </style>
+
 </head>
 <body>
 
@@ -91,7 +125,13 @@
     <div class="heading">
         <h1>TOPICS AND EXAMPLES</h1>
     </div>
-    <div>
+    <div class="menu">
+        <ul >
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">Aaludra</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">ADDRESS</a></li>
+        </ul>
 
     </div>
 </div>
@@ -112,7 +152,9 @@
     </ul>     
     <br>
     <hr>
+    <hr>
     <p>"Welcome to my website, a hub of knowledge and creativity tailored just for you! Dive into a world where cutting-edge technology meets the passion for coding and gaming. Whether you are a fellow coding enthusiast or a gaming aficionado, this site is designed to cater to your interests. Explore insightful articles on computer science, uncover coding tips and tricks, and embark on thrilling virtual adventures. Join our community of tech enthusiasts and gamers, where learning and fun seamlessly blend. Your journey to explore the limitless possibilities of the digital realm begins here. Happy exploring!"</p>
+    <hr>
     <hr>
     <br>
    
